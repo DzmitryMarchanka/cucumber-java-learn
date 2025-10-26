@@ -24,5 +24,4 @@ public abstract class BasePage {
     public boolean isElementDisplayed(By by) {
         return !findElements(by).isEmpty();
     }
-
 }
